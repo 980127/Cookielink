@@ -62,21 +62,21 @@
         <v-responsive max-width="640px" class="mt-10 mx-auto">
             <div class="pa-5 bg-white">
                 <div class="text-h5">Referrers</div>
-                <v-expansion-panels accordion>
+                <v-expansion-panels accordion flat>
                     <v-expansion-panel>
                         <v-expansion-panel-header>
                             <v-row no-gutters>
-                                <v-col cols="4">1. tiktok</v-col>
+                                <v-col cols="3">1. tiktok</v-col>
                                 <v-col cols="2">2.75k Views</v-col>
-                                <v-col cols="2">60% of visitors</v-col>
+                                <v-col cols="3">60% of visitors</v-col>
                                 <v-col cols="4">722 Outbound Clicks</v-col>
                             </v-row>
                         </v-expansion-panel-header>
                         <v-expansion-panel-content>
                             <v-row>
-                                <v-col cols="4">instgram.com/username</v-col>
+                                <v-col cols="3">instgram.com</v-col>
                                 <v-col cols="2">1.75k Views</v-col>
-                                <v-col cols="2">80% of visitors</v-col>
+                                <v-col cols="3">80% of visitors</v-col>
                                 <v-col cols="4">400 Outbound Clicks</v-col>
                             </v-row>
                         </v-expansion-panel-content>
@@ -84,17 +84,17 @@
                     <v-expansion-panel>
                         <v-expansion-panel-header>
                             <v-row no-gutters>
-                                <v-col cols="4">2. instgram</v-col>
+                                <v-col cols="3">2. instgram</v-col>
                                 <v-col cols="2">2.75k Views</v-col>
-                                <v-col cols="2">60% of visitors</v-col>
+                                <v-col cols="3">60% of visitors</v-col>
                                 <v-col cols="4">722 Outbound Clicks</v-col>
                             </v-row>
                         </v-expansion-panel-header>
                         <v-expansion-panel-content>
                             <v-row>
-                                <v-col cols="4">instgram.com/username</v-col>
+                                <v-col cols="3">instgram.com</v-col>
                                 <v-col cols="2">1.75k Views</v-col>
-                                <v-col cols="2">80% of visitors</v-col>
+                                <v-col cols="3">80% of visitors</v-col>
                                 <v-col cols="4">400 Outbound Clicks</v-col>
                             </v-row>
                         </v-expansion-panel-content>

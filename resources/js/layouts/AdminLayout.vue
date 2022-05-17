@@ -8,8 +8,10 @@
       app
       class="d-flex fill-height"
     >
+      
       <v-list nav>
         <v-list-item-group :value="indexMenu">
+          <div><v-img src="/images/logo.png" width="36px" class="mb-5"/></div>
           <v-list-item
             v-for="(item, i) in items"
             :key="i"

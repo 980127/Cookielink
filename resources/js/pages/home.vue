@@ -10,7 +10,7 @@
         </v-banner>
         <v-card>
           <VToolbar flat>
-            <VToolbartitle class="font-weight-bold" name="links">Links</VToolbartitle>
+            <v-toolbar-title class="font-weight-bold" name="links">Links</v-toolbar-title>
             <VSpacer></VSpacer>
             <VBtn color="primary">Add New Link</VBtn>
           </VToolbar>
@@ -23,11 +23,11 @@
                 <div class="justify-start mr-auto">
                   <div class="mb-3">
                     <VTextfield>This is my first link</VTextfield>
-                    <VIcon class="font-size-">mdi-pencil</VIcon>
+                    <VIcon size="20px">mdi-pencil</VIcon>
                   </div>
                   <div class="mb-4">
                     <VTextfield>http://somelink.com</VTextfield>
-                    <VIcon class="font-size-">mdi-pencil</VIcon>
+                    <VIcon size="20px">mdi-pencil</VIcon>
                   </div>
                   <div>
                     <VIcon>mdi-shield-check-outline</VIcon>
@@ -56,11 +56,11 @@
                 <div class="justify-start mr-auto">
                   <div class="mb-3">
                     <VTextfield>This is my first link</VTextfield>
-                    <VIcon class="font-size-">mdi-pencil</VIcon>
+                    <VIcon size="20px">mdi-pencil</VIcon>
                   </div>
                   <div class="mb-4">
                     <VTextfield>http://somelink.com</VTextfield>
-                    <VIcon class="font-size-">mdi-pencil</VIcon>
+                    <VIcon size="20px">mdi-pencil</VIcon>
                   </div>
                   <div>
                     <VIcon>mdi-shield-check-outline</VIcon>
@@ -82,7 +82,7 @@
           </VRow>
           <VDivider></VDivider>
           <VToolbar flat>
-            <VToolbartitle class="font-weight-bold" name="apperance">Apperance</VToolbartitle>
+            <v-toolbar-title class="font-weight-bold" name="apperance">Apperance</v-toolbar-title>
           </VToolbar>
           <VRow no-gutters class="px-4 py-1 mb-7">
             <VCol cols="2" class="mr-n7">
@@ -93,11 +93,11 @@
             <VCol cols="10" class="hidden-xs-only ml-7 d-flex flex-column justify-center">
               <div class="mb-3">
                 <span>Name:</span>
-                <VIcon>mdi-pencil</VIcon>
+                <VIcon size="20px">mdi-pencil</VIcon>
               </div>
               <div>
                 <span>Bio:</span>
-                <VIcon>mdi-pencil</VIcon>
+                <VIcon size="20px">mdi-pencil</VIcon>
               </div>
             </VCol>
           </VRow>
@@ -137,12 +137,10 @@
             </VResponsive>
           </v-card> -->
           <div class="mobile-view d-flex justify-center align-center">
-            <div>
               <div class="view-container">
-                <iframe name="mobile-preview" src="http://dev.cookielink.co/account/flynn">
+                <iframe name="mobile-preview" width="100%" height="100%" scrolling="no" src="http://dev.cookielink.co/account/flynn">
                 </iframe>
               </div>
-            </div>
           </div>
         </div>
       </VCol>
@@ -157,17 +155,17 @@
 
 .view-container {
   background-image: url(/images/mobile_Surround.png);
-  width: 264px;
-  height: 530px;
+  width: 350px;
+  height: 705px;
   background-size: contain;
-  padding: 10px 13px;
+  padding: 13px 18px;
 }
 
 iframe {
-  width: 100%;
-  height: 100%;
-  border: 0;
+  border: none;
+  border-radius: 40px;
 }
+
 </style>
 
 <script>

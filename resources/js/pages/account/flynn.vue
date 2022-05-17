@@ -32,7 +32,9 @@ import GuestLayout from "../../layouts/GuestLayout.vue";
 export default {
     components: { GuestLayout },
     data() {
-        
+        return {
+            
+        }
     },
 }
 </script>
